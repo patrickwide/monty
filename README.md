@@ -1,10 +1,16 @@
-Monty bytecode is a programming language that was created for the Holberton School project "Monty 0.98q" in order to teach students the basics of bytecode interpretation and stack/queue algorithms. It is a simple, stack-based language that uses a series of bytecodes, or instructions, to perform operations on a stack of integers.
+# Monty Bytecode
 
-The Monty bytecode interpreter reads a file containing a series of bytecodes and executes them one at a time. Each bytecode consists of a mnemonic, or word, followed by an argument. The mnemonic indicates the operation to be performed, and the argument specifies any additional information needed for the operation.
+Monty Bytecode is a simple programming language created for the "Monty 0.98q" project at Holberton School. The purpose of Monty Bytecode is to teach students the fundamentals of bytecode interpretation and stack/queue algorithms. It employs a stack-based approach and utilizes a set of bytecodes or instructions to operate on a stack of integers.
 
-Here is an example of a simple Monty bytecode program that pushes the number 123 onto the top of the stack and then prints it:
+## How it Works
 
-   push 123
-   pall
+The Monty bytecode interpreter reads a file that contains a sequence of bytecodes and executes them one by one. Each bytecode consists of a mnemonic (a word) followed by an argument. The mnemonic specifies the operation to be performed, and the argument provides any additional information required for the operation.
 
-The Monty bytecode interpreter is designed to be simple and easy to understand, making it a useful tool for learning about the basics of bytecode interpretation and stack/queue algorithms.
+For example, consider the following Monty bytecode program:
+
+```
+push 123
+pall
+```
+
+In this program, the `push` bytecode is used to push the number 123 onto the top of the stack, and `pall` is used to print all the elements in the stack.
